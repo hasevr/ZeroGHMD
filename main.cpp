@@ -50,8 +50,8 @@ int __cdecl main() {
 	//  +       121       +
 	const double lz = 1.51 / 2;
 	const double yHmd = 0.20;
-	desc.motors[0].pos = Vec3f(0.55f, 2.10-yHmd, -lz);			//	RF
-	desc.motors[1].pos = Vec3f(-0.55f, 2.13-yHmd, -lz);			//	LF
+	desc.motors[0].pos = Vec3f(0.55f, 2.14-yHmd, -lz);			//	RF
+	desc.motors[1].pos = Vec3f(-0.55f, 2.14-yHmd, -lz);			//	LF
 	desc.motors[2].pos = Vec3f(-(0.55f+0.11f), 2.03-yHmd, lz-0.33);	//	LB
 	desc.motors[3].pos = Vec3f(0.55f, 2.12-yHmd, lz);			//	RB
 
